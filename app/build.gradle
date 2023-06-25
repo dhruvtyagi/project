@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.daniilss18019262_cs6051_cw"
+        applicationId "com.example.chat_app_finalb13"
         minSdk 21
         targetSdk 32
         versionCode 1
@@ -49,8 +49,8 @@ dependencies {
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
     //Firebase
-    implementation 'com.google.firebase:firebase-messaging:23.0.4'
-    implementation 'com.google.firebase:firebase-firestore:24.1.2'
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    implementation 'com.google.firebase:firebase-firestore:24.6.1'
 
     //MultiDex
     implementation 'androidx.multidex:multidex:2.0.1'
@@ -58,4 +58,7 @@ dependencies {
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+
+    implementation 'com.google.firebase:firebase-ml-natural-language:22.0.1'
+    implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.9'
 }

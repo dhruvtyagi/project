@@ -106,6 +106,17 @@
             android:textColor="@color/primary_text"
             android:textSize="@dimen/_13ssp"/>
 
+        <Spinner
+            android:id="@+id/language_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@drawable/background_input"
+            android:hint="Preferred Language"
+            android:paddingStart="@dimen/_16sdp"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/_13ssp" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
